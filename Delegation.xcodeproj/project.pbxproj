@@ -13,6 +13,10 @@
 		22CB23112474AE56001B3ABB /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 22CB230F2474AE56001B3ABB /* Main.storyboard */; };
 		22CB23132474AE57001B3ABB /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 22CB23122474AE57001B3ABB /* Assets.xcassets */; };
 		22CB23162474AE57001B3ABB /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 22CB23142474AE57001B3ABB /* LaunchScreen.storyboard */; };
+		22CB231E2474B1D6001B3ABB /* ColorPickerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 22CB231D2474B1D6001B3ABB /* ColorPickerViewController.swift */; };
+		22CB23202474B7C7001B3ABB /* FirstViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 22CB231F2474B7C7001B3ABB /* FirstViewController.swift */; };
+		22CB23222474B7D5001B3ABB /* SecondViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 22CB23212474B7D5001B3ABB /* SecondViewController.swift */; };
+		22CB23242474B7EA001B3ABB /* ThirdViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 22CB23232474B7EA001B3ABB /* ThirdViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +28,10 @@
 		22CB23122474AE57001B3ABB /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		22CB23152474AE57001B3ABB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		22CB23172474AE57001B3ABB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		22CB231D2474B1D6001B3ABB /* ColorPickerViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ColorPickerViewController.swift; sourceTree = "<group>"; };
+		22CB231F2474B7C7001B3ABB /* FirstViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FirstViewController.swift; sourceTree = "<group>"; };
+		22CB23212474B7D5001B3ABB /* SecondViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SecondViewController.swift; sourceTree = "<group>"; };
+		22CB23232474B7EA001B3ABB /* ThirdViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ThirdViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -60,9 +68,13 @@
 				22CB230B2474AE56001B3ABB /* SceneDelegate.swift */,
 				22CB230D2474AE56001B3ABB /* ViewController.swift */,
 				22CB230F2474AE56001B3ABB /* Main.storyboard */,
+				22CB231D2474B1D6001B3ABB /* ColorPickerViewController.swift */,
 				22CB23122474AE57001B3ABB /* Assets.xcassets */,
 				22CB23142474AE57001B3ABB /* LaunchScreen.storyboard */,
 				22CB23172474AE57001B3ABB /* Info.plist */,
+				22CB231F2474B7C7001B3ABB /* FirstViewController.swift */,
+				22CB23212474B7D5001B3ABB /* SecondViewController.swift */,
+				22CB23232474B7EA001B3ABB /* ThirdViewController.swift */,
 			);
 			path = Delegation;
 			sourceTree = "<group>";
@@ -138,8 +150,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				22CB23222474B7D5001B3ABB /* SecondViewController.swift in Sources */,
+				22CB23202474B7C7001B3ABB /* FirstViewController.swift in Sources */,
 				22CB230E2474AE56001B3ABB /* ViewController.swift in Sources */,
+				22CB23242474B7EA001B3ABB /* ThirdViewController.swift in Sources */,
 				22CB230A2474AE56001B3ABB /* AppDelegate.swift in Sources */,
+				22CB231E2474B1D6001B3ABB /* ColorPickerViewController.swift in Sources */,
 				22CB230C2474AE56001B3ABB /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
